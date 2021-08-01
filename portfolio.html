@@ -22,28 +22,37 @@
     <header class="page-header">
       <div class="container">
         <nav class="nav-main">
-          <a class="logo link" href="#">Web<span class="logo-part">Studio</span> </a>
+          <a class="logo" href="#">Web<span class="logo-part">Studio</span> </a>
 
           <ul class="nav-list list">
             <li class="nav-item">
-              <a class="nav-link link" href="./index.html">Студия</a>
+              <a class="nav-link" href="./index.html">Студия</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link link current" href="#">Портфолио</a>
+              <a class="nav-link current" href="#">Портфолио</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link link" href="#">Контакты</a>
+              <a class="nav-link" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
 
         <ul class="nav-contact list">
           <li class="nav-contact-item">
-            <a class="nav-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="nav-link-item" href="mailto:info@devstudio.com"
+              ><svg class="nav-icon-item">
+                <use href="./images/symbol-defs.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
           </li>
 
           <li class="nav-contact-item">
-            <a class="nav-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="nav-link-item" href="tel:+380961111111"
+              ><svg class="nav-icon-item">
+                <use href="./images/symbol-defs.svg#icon-smartphone"></use></svg
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -67,7 +76,7 @@
           <h2 class="visually-hidden">Примеры работ</h2>
           <ul class="sample-list list">
             <li class="sample-item">
-              <a class="sample-link link" href="#">
+              <a class="sample-link" href="#">
                 <img
                   class="sample-img"
                   src="./images/project-1.jpg"
@@ -81,7 +90,7 @@
               </a>
             </li>
             <li class="sample-item">
-              <a class="sample-link link" href="#">
+              <a class="sample-link" href="#">
                 <img
                   class="sample-img"
                   src="./images/project-2.jpg"
@@ -95,7 +104,7 @@
               </a>
             </li>
             <li class="sample-item">
-              <a class="sample-link link" href="#">
+              <a class="sample-link" href="#">
                 <img
                   class="sample-img"
                   src="./images/project-3.jpg"
@@ -109,7 +118,7 @@
               </a>
             </li>
             <li class="sample-item">
-              <a class="sample-link link" href="#">
+              <a class="sample-link" href="#">
                 <img
                   class="sample-img"
                   src="./images/project-4.jpg"
@@ -123,7 +132,7 @@
               </a>
             </li>
             <li class="sample-item">
-              <a class="sample-link link" href="#">
+              <a class="sample-link" href="#">
                 <img
                   class="sample-img"
                   src="./images/project-5.jpg"
@@ -137,7 +146,7 @@
               </a>
             </li>
             <li class="sample-item">
-              <a class="sample-link link" href="#">
+              <a class="sample-link" href="#">
                 <img
                   class="sample-img"
                   src="./images/project-6.jpg"
@@ -151,7 +160,7 @@
               </a>
             </li>
             <li class="sample-item">
-              <a class="sample-link link" href="#">
+              <a class="sample-link" href="#">
                 <img
                   class="sample-img"
                   src="./images/project-7.jpg"
@@ -165,7 +174,7 @@
               </a>
             </li>
             <li class="sample-item">
-              <a class="sample-link link" href="#">
+              <a class="sample-link" href="#">
                 <img
                   class="sample-img"
                   src="./images/project-8.jpg"
@@ -179,7 +188,7 @@
               </a>
             </li>
             <li class="sample-item">
-              <a class="sample-link link" href="#">
+              <a class="sample-link" href="#">
                 <img
                   class="sample-img"
                   src="./images/project-9.jpg"
@@ -200,18 +209,53 @@
     <!--Футер-->
     <footer class="footer">
       <div class="container">
-        <a class="logo link" href="#">Web<span class="logo-part">Studio</span> </a>
-        <address class="addr">
-          г. Киев, пр-т Леси Украинки, 26
-          <ul class="addr-list list">
-            <li class="addr-item">
-              <a class="addr-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <div class="footer-addr">
+          <a class="logo" href="#">Web<span class="logo-part">Studio</span> </a>
+          <address class="addr">
+            г. Киев, пр-т Леси Украинки, 26
+            <ul class="addr-list list">
+              <li class="addr-item">
+                <a class="addr-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li class="addr-item">
+                <a class="addr-link" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-icon-network">
+          <p class="network-title">Присоединяйтесь</p>
+          <ul class="network-icon-list">
+            <li class="network-icon-item">
+              <a class="network-link" href="#">
+                <svg class="network-logo">
+                  <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="addr-item">
-              <a class="addr-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <li class="network-icon-item">
+              <a class="network-link" href="#">
+                <svg class="network-logo">
+                  <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="network-icon-item">
+              <a class="network-link" href="#">
+                <svg class="network-logo">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="network-icon-item">
+              <a class="network-link" href="#">
+                <svg class="network-logo">
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
