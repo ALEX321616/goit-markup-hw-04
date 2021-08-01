@@ -437,7 +437,8 @@ a {
   fill: #afb1b8;
 }
 
-.const-clients-item:hover .client-logoб .const-clients-item:focus .client-logo {
+.const-clients-item:hover .client-logo,
+.const-clients-item:focus .client-logo {
   fill: var(--clr-brend);
 }
 .const-clients-item:hover,
